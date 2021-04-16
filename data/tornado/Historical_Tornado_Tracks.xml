@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?><MD_Metadata xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xalan="http://xml.apache.org/xalan" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml" xmlns="http://www.isotc211.org/2005/gmd">
+    <fileIdentifier>
+        <gco:CharacterString>1516285843115r23687675692601506</gco:CharacterString>
+    </fileIdentifier>
+    <language>
+        <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng" codeSpace="ISO639-2">eng</LanguageCode>
+    </language>
+    <characterSet>
+        <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+    </characterSet>
+    <hierarchyLevel>
+        <MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115">dataset</MD_ScopeCode>
+    </hierarchyLevel>
+    <contact>
+        <CI_ResponsibleParty>
+            <contactInfo gco:nilReason="missing"/>
+            <role>
+                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="ISOTC211/19115">pointOfContact</CI_RoleCode>
+            </role>
+        </CI_ResponsibleParty>
+    </contact>
+    <dateStamp>
+        <gco:Date>2017-12-14</gco:Date>
+    </dateStamp>
+    <metadataStandardName>
+        <gco:CharacterString>NAP - Metadata</gco:CharacterString>
+    </metadataStandardName>
+    <metadataStandardVersion>
+        <gco:CharacterString>1.2</gco:CharacterString>
+    </metadataStandardVersion>
+    <spatialRepresentationInfo>
+        <MD_VectorSpatialRepresentation>
+            <topologyLevel>
+                <MD_TopologyLevelCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopologyLevelCode" codeListValue="geometryOnly" codeSpace="ISOTC211/19115">geometryOnly</MD_TopologyLevelCode>
+            </topologyLevel>
+            <geometricObjects>
+                <MD_GeometricObjects>
+                    <geometricObjectType>
+                        <MD_GeometricObjectTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="composite" codeSpace="ISOTC211/19115">composite</MD_GeometricObjectTypeCode>
+                    </geometricObjectType>
+                    <geometricObjectCount>
+                        <gco:Integer>60114</gco:Integer>
+                    </geometricObjectCount>
+                </MD_GeometricObjects>
+            </geometricObjects>
+        </MD_VectorSpatialRepresentation>
+    </spatialRepresentationInfo>
+    <referenceSystemInfo>
+        <MD_ReferenceSystem>
+            <referenceSystemIdentifier>
+                <RS_Identifier>
+                    <code>
+                        <gco:CharacterString>4326</gco:CharacterString>
+                    </code>
+                    <codeSpace>
+                        <gco:CharacterString>EPSG</gco:CharacterString>
+                    </codeSpace>
+                    <version>
+                        <gco:CharacterString>8.6.2</gco:CharacterString>
+                    </version>
+                </RS_Identifier>
+            </referenceSystemIdentifier>
+        </MD_ReferenceSystem>
+    </referenceSystemInfo>
+    <identificationInfo>
+        <MD_DataIdentification>
+            <citation>
+                <CI_Citation>
+                    <title>
+                        <gco:CharacterString>Historical Tornado Tracks</gco:CharacterString>
+                    </title>
+                    <date gco:nilReason="missing"/>
+                    <citedResponsibleParty gco:nilReason="missing"/>
+                    <presentationForm>
+                        <CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="mapDigital" codeSpace="ISOTC211/19115">mapDigital</CI_PresentationFormCode>
+                    </presentationForm>
+                </CI_Citation>
+            </citation>
+            <abstract>
+                <gco:CharacterString>This map layer shows tornado tracks in CONUS, Alaska, Hawaii and Puerto Rico, from 1950 to 2015. Statistical data were obtained from the National Weather Service, Storm Prediction Center (SPC).</gco:CharacterString>
+            </abstract>
+            <purpose>
+                <gco:CharacterString>This dataset represents data that was compiled from the United States severe report database (tornadoes 1950-2015).</gco:CharacterString>
+            </purpose>
+            <credit>
+                <gco:CharacterString>NOAA; National Weather Service; National Centers for Environmental Prediction; Storm Prediction Center; SVRGIS These files are an attempt to represent the data that is submitted to the Storm Data publication by National Weather Service field offices. Careful review of the data is conducted at the National Climate Data Center and the Storm Prediction Center. More information available online: http://www.spc.noaa.gov/wcm/#data Website: http://www.spc.noaa.gov/gis/svrgis/ Attribute Domain Values: http://www.spc.noaa.gov/wcm/data/SPC_severe_database_description.pdf</gco:CharacterString>
+            </credit>
+            <status gco:nilReason="missing"/>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>United States</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Continental United States</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>CONUS</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Puerto Rico</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Alaska</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Hawaii</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="ISOTC211/19115">place</MD_KeywordTypeCode>
+                    </type>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>United States</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Continental United States</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>CONUS</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Puerto Rico</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Alaska</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Hawaii</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="ISOTC211/19115">place</MD_KeywordTypeCode>
+                    </type>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>United States</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Continental United States</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>CONUS</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Puerto Rico</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Alaska</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Hawaii</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="ISOTC211/19115">place</MD_KeywordTypeCode>
+                    </type>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>United States</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Continental United States</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>CONUS</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Puerto Rico</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Alaska</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Hawaii</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="ISOTC211/19115">place</MD_KeywordTypeCode>
+                    </type>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>United States</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Continental United States</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>CONUS</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Puerto Rico</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Alaska</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Hawaii</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="ISOTC211/19115">place</MD_KeywordTypeCode>
+                    </type>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>United States</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Continental United States</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>CONUS</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Puerto Rico</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Alaska</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Hawaii</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="ISOTC211/19115">place</MD_KeywordTypeCode>
+                    </type>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Tornado</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Locations</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Tracks</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Historical</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Hazards</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Tornado</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Locations</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Tracks</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Historical</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Hazards</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Tornado</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Locations</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Tracks</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Historical</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Hazards</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Tornado</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Locations</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Tracks</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Historical</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Hazards</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Tornado</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Locations</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Tracks</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Historical</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Hazards</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Downloadable Data</gco:CharacterString>
+                    </keyword>
+                    <thesaurusName uuidref="723f6998-058e-11dc-8314-0800200c9a66"/>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <resourceConstraints>
+                <MD_Constraints>
+                    <useLimitation>
+                        <gco:CharacterString>Access Constraint: None (Public Domain Information)Use Constraint: None (Public Use)</gco:CharacterString>
+                    </useLimitation>
+                </MD_Constraints>
+            </resourceConstraints>
+            <resourceConstraints>
+                <MD_LegalConstraints>
+                    <useLimitation>
+                        <gco:CharacterString>Distributor assumes no liability for misuse of data.</gco:CharacterString>
+                    </useLimitation>
+                    <otherConstraints>
+                        <gco:CharacterString>None (Public Domain Information)</gco:CharacterString>
+                    </otherConstraints>
+                </MD_LegalConstraints>
+            </resourceConstraints>
+            <spatialRepresentationType>
+                <MD_SpatialRepresentationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="vector" codeSpace="ISOTC211/19115">vector</MD_SpatialRepresentationTypeCode>
+            </spatialRepresentationType>
+            <language>
+                <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng" codeSpace="ISO639-2">eng</LanguageCode>
+            </language>
+            <characterSet>
+                <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+            </characterSet>
+            <topicCategory>
+                <MD_TopicCategoryCode>location</MD_TopicCategoryCode>
+            </topicCategory>
+            <environmentDescription>
+                <gco:CharacterString>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.1.4959</gco:CharacterString>
+            </environmentDescription>
+            <extent>
+                <EX_Extent>
+                    <geographicElement>
+                        <EX_GeographicBoundingBox>
+                            <westBoundLongitude>
+                                <gco:Decimal>-163.53</gco:Decimal>
+                            </westBoundLongitude>
+                            <eastBoundLongitude>
+                                <gco:Decimal>-64.9</gco:Decimal>
+                            </eastBoundLongitude>
+                            <southBoundLatitude>
+                                <gco:Decimal>18.13</gco:Decimal>
+                            </southBoundLatitude>
+                            <northBoundLatitude>
+                                <gco:Decimal>61.02</gco:Decimal>
+                            </northBoundLatitude>
+                        </EX_GeographicBoundingBox>
+                    </geographicElement>
+                </EX_Extent>
+            </extent>
+            <extent>
+                <EX_Extent>
+                    <geographicElement>
+                        <EX_GeographicBoundingBox>
+                            <extentTypeCode>
+                                <gco:Boolean>true</gco:Boolean>
+                            </extentTypeCode>
+                            <westBoundLongitude>
+                                <gco:Decimal>-163.530022</gco:Decimal>
+                            </westBoundLongitude>
+                            <eastBoundLongitude>
+                                <gco:Decimal>-64.899883</gco:Decimal>
+                            </eastBoundLongitude>
+                            <southBoundLatitude>
+                                <gco:Decimal>18.130003</gco:Decimal>
+                            </southBoundLatitude>
+                            <northBoundLatitude>
+                                <gco:Decimal>61.020117</gco:Decimal>
+                            </northBoundLatitude>
+                        </EX_GeographicBoundingBox>
+                    </geographicElement>
+                </EX_Extent>
+            </extent>
+            <supplementalInformation>
+                <gco:CharacterString>If you are using this dataset as a shapefile, please be aware that it was converted from a Geodatabase.  As a result, this shapefile may have attribution and metadata errors resulting from the conversion process. The following are known issues: null values may have been changed to 0s (zeros) or to blank values, numbers (including latitude and longitude) may have been rounded up or down, there may be issues with Unicode character strings, and time cannot be stored in a date field. Field names may have been truncated to no longer than 10 characters or completely changed, lengthy string attributes may have been truncated to 254 characters, and attribute columns may have been deleted. Shapefiles do not support coded domains and subtypes therefore the original file geodatabase attribution and metadata information for coded domains and subtypes could be incorrect or missing in the shapefile version. Please visit the following ESRI website for more information: http://pro.arcgis.com/en/pro-app/tool-reference/appendices/geoprocessing-considerations-for-Shapefile-output.htm
+
+NOAA; National Weather Service; National Centers for Environmental Prediction; Storm Prediction Center; SVRGIS These files are an attempt to represent the data that is submitted to the Storm Data publication by National Weather Service field offices. Careful review of the data is conducted at the National Climate Data Center and the Storm Prediction Center. More information available online: http://www.spc.noaa.gov/wcm/#data Website: http://www.spc.noaa.gov/gis/svrgis/ Attribute Domain Values: http://www.spc.noaa.gov/wcm/data/SPC_severe_database_description.pdf</gco:CharacterString>
+            </supplementalInformation>
+        </MD_DataIdentification>
+    </identificationInfo>
+    <distributionInfo>
+        <MD_Distribution>
+            <distributionFormat>
+                <MD_Format>
+                    <name>
+                        <gco:CharacterString>File Geodatabase Feature Class</gco:CharacterString>
+                    </name>
+                    <version gco:nilReason="missing"/>
+                </MD_Format>
+            </distributionFormat>
+            <distributionFormat>
+                <MD_Format>
+                    <name>
+                        <gco:CharacterString>Vector Digital Data Set (Point)</gco:CharacterString>
+                    </name>
+                    <version gco:nilReason="missing"/>
+                </MD_Format>
+            </distributionFormat>
+            <distributor>
+                <MD_Distributor>
+                    <distributorContact gco:nilReason="missing"/>
+                    <distributionOrderProcess>
+                        <MD_StandardOrderProcess>
+                            <fees>
+                                <gco:CharacterString>None. No fees are applicable for obtaining the data set.</gco:CharacterString>
+                            </fees>
+                        </MD_StandardOrderProcess>
+                    </distributionOrderProcess>
+                </MD_Distributor>
+            </distributor>
+            <transferOptions>
+                <MD_DigitalTransferOptions/>
+            </transferOptions>
+        </MD_Distribution>
+    </distributionInfo>
+    <dataQualityInfo>
+        <DQ_DataQuality>
+            <scope>
+                <DQ_Scope>
+                    <level>
+                        <MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115">dataset</MD_ScopeCode>
+                    </level>
+                </DQ_Scope>
+            </scope>
+            <lineage>
+                <LI_Lineage>
+                    <processStep>
+                        <LI_ProcessStep>
+                            <description>
+                                <gco:CharacterString>Split pre-1996 loss values into a new Pre_1996_Loss field by querying the yr field. Converted pre-1996 values in the loss field to NULL and post-1995 values in the Pre_1996_Loss field to "Post-1995". This split was made to separate enumerated values (pre-1996) from actual values (post-1995). The metadata was updated accordingly.</gco:CharacterString>
+                            </description>
+                            <processor>
+                                <CI_ResponsibleParty>
+                                    <organisationName>
+                                        <gco:CharacterString>HIFLD Support Team</gco:CharacterString>
+                                    </organisationName>
+                                    <contactInfo gco:nilReason="missing"/>
+                                    <role>
+                                        <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="processor" codeSpace="ISOTC211/19115">processor</CI_RoleCode>
+                                    </role>
+                                </CI_ResponsibleParty>
+                            </processor>
+                        </LI_ProcessStep>
+                    </processStep>
+                </LI_Lineage>
+            </lineage>
+        </DQ_DataQuality>
+    </dataQualityInfo>
+</MD_Metadata>
