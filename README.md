@@ -1,4 +1,8 @@
 # historic-tornado-data-project
+
+# Introduction
+In this project I was given the task of comparing Tennessee tornado tracks with traffic and population data. When going through teh dataset I wanted to see if there were any trends in population density, traffic density, and where tornadoes typically strike. For this project I used Python for data analysis and PowerBI for dashboarding.
+
 Data Sources: <br/>[Tennessee Tornado Tracks Data](https://hifld-geoplatform.opendata.arcgis.com/datasets/historical-tornado-tracks?geometry=-89.018%2C35.804%2C-)<br/>
               [Tennessee Traffic Data](https://www.arcgis.com/apps/webappviewer/index.html?id=075987cdae37474b88fa400d65681354)<br/>
               [Tennessee Population Data](https://www.census.gov/data/tables/time-series/demo/popest/2010s-counties-total.html#par_textimage)
@@ -41,6 +45,8 @@ In this project I was given the task of comparing Tennessee tornado tracks with 
 
 13. At this step I found out that you can use gdp.overlay to intersect the geopoints, so that the tornado geometry are broken up by county
 
+![Davidson Plot](./assets/davidson_plot.jpg)
+
 14. Now I take the information I learned from the step above to create a geodataframe that has the tornado geometry broken up by county
 
 15. There was some slight cleaning to do for the county_tornado dataframe
@@ -50,6 +56,8 @@ In this project I was given the task of comparing Tennessee tornado tracks with 
 17. The next step is where I answered questions I wanted to answer when gathering the data
 
 18. At this point in the project I create charts to use in the presentation using the cleaned county_tornado and geo_traffic_data dataframes
+
+![Heatmap](./assets/tennessee_heatmap.jpg)
 
 19. I created a folium map to show the tornado paths throughout each county, sadly it does not sow up on github
 
