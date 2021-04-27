@@ -1,8 +1,16 @@
 # historic-tornado-data-project
-Data Sources: [Tennessee Tornado Tracks Data](https://hifld-geoplatform.opendata.arcgis.com/datasets/historical-tornado-tracks?geometry=-89.018%2C35.804%2C-)
-              [Tennessee Traffic Data](https://www.arcgis.com/apps/webappviewer/index.html?id=075987cdae37474b88fa400d65681354)
+Data Sources: <br/>[Tennessee Tornado Tracks Data](https://hifld-geoplatform.opendata.arcgis.com/datasets/historical-tornado-tracks?geometry=-89.018%2C35.804%2C-)<br/>
+              [Tennessee Traffic Data](https://www.arcgis.com/apps/webappviewer/index.html?id=075987cdae37474b88fa400d65681354)<br/>
               [Tennessee Population Data](https://www.census.gov/data/tables/time-series/demo/popest/2010s-counties-total.html#par_textimage)
 
+# Proposal
+![Proposal Document](./assets/Brandon_Morgan_Capstone_Proposal.jpg)
+
+# Table of Contents
+* [Proposal](#Proposal)
+* [Introduction](#Introduction)
+* [Python Walkthrough](#PythonWalkthrough)
+* [Presentation Walkthrough](#PresentationWalkthrough)
 
 # Introduction
 In this project I was given the task of comparing Tennessee tornado tracks with traffic and population data. When going through teh dataset I wanted to see if there were any trends in population density, traffic density, and where tornadoes typically strike. For this project I used Python for data analysis and PowerBI for dashboarding.
@@ -43,10 +51,11 @@ In this project I was given the task of comparing Tennessee tornado tracks with 
 
 18. At this point in the project I create charts to use in the presentation using the cleaned county_tornado and geo_traffic_data dataframes
 
-19. I created a folium map to show the tornado paths throughout each county
+19. I created a folium map to show the tornado paths throughout each county, sadly it does not sow up on github
 
-20. Finally, I exported the dataframe created from the project that I will need for dashboarding
+20. Then I created a histogram to see what hours had the most tornadoes across the dataset
 
-
+21. Finally, I exported the dataframe created from the project that I will need for dashboarding
 # Presentation Walkthrough
+
 
