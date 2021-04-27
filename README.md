@@ -4,13 +4,13 @@ Data Sources: <br/>[Tennessee Tornado Tracks Data](https://hifld-geoplatform.ope
               [Tennessee Population Data](https://www.census.gov/data/tables/time-series/demo/popest/2010s-counties-total.html#par_textimage)
 
 # Proposal
-![Proposal Document](assets/Brandon_Morgan_Capstone_Proposal.pdf)
+[Proposal Document](assets/Brandon_Morgan_Capstone_Proposal.pdf)
 
 # Table of Contents
 * [Proposal](#Proposal)
 * [Introduction](#Introduction)
-* [Python Walkthrough](#PythonWalkthrough)
-* [Presentation Walkthrough](#PresentationWalkthrough)
+* [Python Walkthrough](#Python-Walkthrough)
+* [Presentation Walkthrough](#Presentation-Walkthrough)
 
 # Introduction
 In this project I was given the task of comparing Tennessee tornado tracks with traffic and population data. When going through teh dataset I wanted to see if there were any trends in population density, traffic density, and where tornadoes typically strike. For this project I used Python for data analysis and PowerBI for dashboarding.
@@ -57,5 +57,30 @@ In this project I was given the task of comparing Tennessee tornado tracks with 
 
 21. Finally, I exported the dataframe created from the project that I will need for dashboarding
 # Presentation Walkthrough
+1. The first slide is an intro with the name of the presentation
 
+![Opening Slide](./assets/opening_slide.jpg)
 
+2. The second slide goes over the key considerations for the project
+
+![Key Considerations Slide](./assets/key_considerations_slide.jpg)
+
+3. The third slide convers the population and traffic history for the state of Tennessee
+
+![Population and Traffic Slide](./assets/pop_and_traffic_slide.jpg)
+
+4. The fourth slide goes over the time of day that tornadoes typically strike along with the months and years with the most tornadoes
+
+![Time Slide](./assets/time_slide.jpg)
+
+5. The fifth slide shows the count of tornadoes for Tennessee from 1952-2015 along with a map showing the tornado tracks and a bar chart showing what counties had the most tornadoes overall
+
+![Map Slide](./assets/map_slide.jpg)
+
+6. The sixth slide has an interactive dashboard with some of the previous charts used along with an average time of day that tornadoes are active
+
+![Dashboard Slide](./assets/dashboard_slide.jpg)
+
+7. the seventh and final slide has a list of key takeaways from the presentation
+
+![Takeaways Slide](./assets/takeaway_slide.jpg)
