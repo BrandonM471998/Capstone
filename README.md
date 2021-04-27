@@ -4,7 +4,7 @@ Data Sources: <br/>[Tennessee Tornado Tracks Data](https://hifld-geoplatform.ope
               [Tennessee Population Data](https://www.census.gov/data/tables/time-series/demo/popest/2010s-counties-total.html#par_textimage)
 
 # Proposal
-![Proposal Document](./assets/Brandon_Morgan_Capstone_Proposal.jpg)
+![Proposal Document](assets/Brandon_Morgan_Capstone_Proposal.pdf)
 
 # Table of Contents
 * [Proposal](#Proposal)
