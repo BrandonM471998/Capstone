@@ -1,7 +1,7 @@
 # historic-tornado-data-project
 
 # Introduction
-In this project I was given the task of comparing Tennessee tornado tracks with traffic and population data. When going through teh dataset I wanted to see if there were any trends in population density, traffic density, and where tornadoes typically strike. For this project I used Python for data analysis and PowerBI for dashboarding.
+In this project I was given the task of comparing Tennessee tornado tracks with traffic and population data. When going through the dataset I wanted to see if there were any trends in population density, traffic density, and where tornadoes typically strike. For this project I used Python for data analysis and PowerBI for dashboarding.
 
 Data Sources: <br/>[Tennessee Tornado Tracks Data](https://hifld-geoplatform.opendata.arcgis.com/datasets/historical-tornado-tracks?geometry=-89.018%2C35.804%2C-)<br/>
               [Tennessee Traffic Data](https://www.arcgis.com/apps/webappviewer/index.html?id=075987cdae37474b88fa400d65681354)<br/>
