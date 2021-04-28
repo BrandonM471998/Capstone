@@ -20,7 +20,7 @@ Data Sources: <br/>[Tennessee Tornado Tracks Data](https://hifld-geoplatform.ope
 # Python Walkthrough
 1. For the beginning of the project I import all packages I intend to use
 
-2. Afterwards I read in the four files I will need for the project using 'gpd.read_file' and 'pd.read_csv'
+2. Afterwards I read in the four files I will need for the project using `gpd.read_file` and `pd.read_csv`
 
 3. I started cleaning some of the data earlier in the notebook as I noticed some inconsistencies further down in the notebook.
 
@@ -32,9 +32,9 @@ Data Sources: <br/>[Tennessee Tornado Tracks Data](https://hifld-geoplatform.ope
 
 7. For this step, I needed to subset the traffic data, as it included unnecessary years for the project
 
-8. I needed to clean the 2018 traffic data further after subsetting as there were lingering columns not needed, along with renaming the 'X' and 'Y' columns to 'LAT' and 'LONG' for creating a geodataframe later
+8. I needed to clean the 2018 traffic data further after subsetting as there were lingering columns not needed, along with renaming the `X` and `Y` columns to `LAT` and `LONG` for creating a geodataframe later
 
-9. Afterwards I created a geodataframe from the traffic data 'LAT' and 'LONG' columns
+9. Afterwards I created a geodataframe from the traffic data `LAT` and `LONG` columns
 
 10. Now I combine the traffic, county, and population dataframes to get the population, average daily traffic, and county information
 
@@ -42,19 +42,19 @@ Data Sources: <br/>[Tennessee Tornado Tracks Data](https://hifld-geoplatform.ope
 
 12. During this step I experimented with plotting to see how the data looked, seeing that there was still some cleaning work to do
 
-13. At this step I found out that you can use 'gdp.overlay' to intersect the geopoints, so that the tornado geometry are broken up by county
+13. At this step I found out that you can use `gdp.overlay` to intersect the geopoints, so that the tornado geometry are broken up by county
 
 ![Davidson Plot](./assets/davidson_plot.jpg)
 
 14. Now I take the information I learned from the step above to create a geodataframe that has the tornado geometry broken up by county
 
-15. There was some slight cleaning to do for the 'county_tornado' dataframe
+15. There was some slight cleaning to do for the `county_tornado` dataframe
 
-16. I created a dataframe specifically for plotting in folium to preserve the integrity of the original 'county_tornado' dataframe
+16. I created a dataframe specifically for plotting in folium to preserve the integrity of the original `county_tornado` dataframe
 
 17. The next step is where I answered questions I wanted to answer when gathering the data
 
-18. At this point in the project I create charts to use in the presentation using the cleaned 'county_tornado' and 'geo_traffic_data' dataframes
+18. At this point in the project I create charts to use in the presentation using the cleaned `county_tornado` and `geo_traffic_data` dataframes
 
 ![Heatmap](./assets/tennessee_heatmap.jpg)
 
